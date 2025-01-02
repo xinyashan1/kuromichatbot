@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+    color: #4a4a4a;
+  }
+  
+  /* Container Styling */
+  .profile-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .header .kuromi-img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #d81b60;
+  }
+  
+  /* About Section */
+  .about {
+    margin-bottom: 2rem;
+  }
+  
+  .about h2 {
+    font-size: 1.5rem;
+    color: #880e4f;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Chatbot Section */
+  .chatbot h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+    margin-bottom: 1rem;
+  }
+  
+  .chat-box {
+    background-color: #fce4ec;
+    border: 2px solid #d81b60;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  #chat-log {
+    height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #d81b60;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .chat-input {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 2px solid #d81b60;
+    border-radius: 5px;
+  }
+  
+  .chat-input button {
+    background-color: #d81b60;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #880e4f;
+  }
+  
